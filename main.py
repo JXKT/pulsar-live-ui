@@ -46,7 +46,7 @@ def cmd_listen(manager: PulsarManager, args: argparse.Namespace) -> None:
 
     try:
         with manager.create_listener(topic, limit=limit) as listener:
-            for msg in listener():
+            for msg in listener:
                 print(f"[{msg.publish_time.strftime('%H:%M:%S')}] ID: {msg.message_id}")
                 if msg.key:
                     print(f"Key: {msg.key}")
