@@ -4,7 +4,11 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "httpx>=0.28.1",
+    "pulsar-client>=3.8.0",
+    "pydantic-settings>=2.12.0",
+]
 
 [dependency-groups]
 dev = [
