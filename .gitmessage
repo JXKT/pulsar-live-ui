@@ -1,0 +1,22 @@
+# <type>(<scope>): <subject>
+#
+# Types:
+#   feat     – A new feature
+#   fix      – A bug fix
+#   docs     – Documentation only changes
+#   style    – Code style (formatting, linting, etc.)
+#   refactor – Code change that neither fixes a bug nor adds a feature
+#   perf     – Performance improvements
+#   test     – Adding or updating tests
+#   chore    – Other changes (build, deps, etc.)
+#
+# Example:
+#   feat(api): add user login endpoint
+#
+# Reference: [ticket / issue number / link]
+#
+# Subject line max ~50 chars.
+# Blank line before body.
+#
+# Body: What changed & why (wrap at ~72 chars).
+# Leave issues / notes as needed.
